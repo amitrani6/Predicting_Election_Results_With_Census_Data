@@ -10,7 +10,7 @@ The following files/folders are included in this repository:
 	3. Classification_Models _Census_Data_Only.ipynb
 	4. congressional_data_and_targets.csv 
 	5. election_results.csv 
-6. Images
+	6. Images
 
 
 The process for this project was as follows:
