@@ -49,7 +49,7 @@ According to the correlation matrix, there are few features with a high positive
 
 I then ran a box and whiskers plot of each continuous feature to view how far spread out each one was from its median. 
 
-![Box And Whiskers Plot Of Continuous Features](/Images/features_boxplot.png)
+![Box And Whiskers Plot Of Continuous Features](/Images/features_boxplot_whiskers.png)
 
 Various demographic features are far more spread out than others. For instance, the inner quartile range of the feature total white residents is much more spread out than others. This is mostly due to a few extreme outliers.
 
