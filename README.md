@@ -267,7 +267,7 @@ Best Parameters: 'max_depth': 5, 'max_features': 0.25, 'min_samples_leaf': 0.04,
 
 ### Model 8: XGBoost
 
-Random forest performed best on the engineered features data frame with previous electoral history included. The best parameters are listed below; they were the same for each model.
+XGBoost performed best on the engineered features data frame with previous electoral history included and the standard features data frame with only census data. The best parameters are listed below; they were the same for each model.
 
 #### Standard Features:
 
@@ -283,3 +283,4 @@ Best Parameters: learning_rate: 0.1, max_depth: 6, min_child_weight: 10, n_estim
 The XGboost, Random Forest and Logistic Regression models with grid search performed best on the data set. K-Nearest Neighbors scored the lowest F1 score.
 
 The percentage of votes cast for the previous Republican presidential candidate improved my models’ F1 scores between 6.88% and 18.70%. Without the previous vote included the models were still able to perform well on census data alone. The features that mattered the most after electoral history was removed were mostly about income, industry employment, education and country of origin. Only the race based feature 'Total_White_People' remained in the top ten features when previous electoral history was removed. Although census data can predict the congressional district’s voting patterns fairly well, what each political party represents and the presidential candidate of the political party account for the small inaccuracies of these models. In swing states these can cause slight differences in the popular vote, which will lead to major differences in the electoral votes.
+
