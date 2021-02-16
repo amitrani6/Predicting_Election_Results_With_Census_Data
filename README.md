@@ -11,6 +11,7 @@ The following files/folders are included in this repository:
 	4. congressional_data_and_targets.csv 
 	5. election_results.csv 
 	6. Images
+	7. comparison_2020 - The updated results for the 2020 Election
 
 
 The process for this project was as follows:
@@ -284,3 +285,10 @@ The XGboost, Random Forest and Logistic Regression models with grid search perfo
 
 The percentage of votes cast for the previous Republican presidential candidate improved my models’ F1 scores between 6.88% and 18.70%. Without the previous vote included the models were still able to perform well on census data alone. The features that mattered the most after electoral history was removed were mostly about income, industry employment, education and country of origin. Only the race based feature 'Total_White_People' remained in the top ten features when previous electoral history was removed. Although census data can predict the congressional district’s voting patterns fairly well, what each political party represents and the presidential candidate of the political party account for the small inaccuracies of these models. In swing states these can cause slight differences in the popular vote, which will lead to major differences in the electoral votes.
 
+## Part 5: Updates for the 2020 Election
+
+
+
+### Results:
+
+![Evaluation Of Models Results for 2020 Election Summary](/comparison_2020/images/evaluation_of_models_results_summary_2020.pdf)
