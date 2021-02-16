@@ -291,4 +291,12 @@ The percentage of votes cast for the previous Republican presidential candidate 
 
 ### Results:
 
+The updated election results come from David Nir's [article](https://www.dailykos.com/stories/2020/11/19/1163009/-Daily-Kos-Elections-presidential-results-by-congressional-district-for-2020-2016-and-2012). As of February 16, 2021 there are a handful of counties that have not yet reported complete reults of the 2020 election online, these will effect the results of the models.
+
 ![Evaluation Of Models Results for 2020 Election Summary](/comparison_2020/images/evaluation_of_models_results_summary_2020.png)
+
+**Standard Features - Census Data Only**: As before, the descision tree model without level limits has the lowest F1 score and the XGBoost has the highest F1 score.
+**Engineered Features - Census Data Only**: As before, the K Nearest Neighbors model has the lowest F1 score and the logistic regression with grid search has the highest F1 score.
+
+**Standard Features - Census Data Only**: K Nearest Neighbors model
+**Engineered Features - Census Data Only**: 
