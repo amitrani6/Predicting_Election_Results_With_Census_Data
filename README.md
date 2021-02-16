@@ -291,4 +291,4 @@ The percentage of votes cast for the previous Republican presidential candidate 
 
 ### Results:
 
-![Evaluation Of Models Results for 2020 Election Summary](/comparison_2020/images/evaluation_of_models_results_summary_2020.pdf)
+![Evaluation Of Models Results for 2020 Election Summary](/comparison_2020/images/evaluation_of_models_results_summary_2020.png)
