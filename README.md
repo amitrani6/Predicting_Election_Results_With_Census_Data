@@ -295,8 +295,8 @@ The updated election results come from David Nir's [article](https://www.dailyko
 
 ![Evaluation Of Models Results for 2020 Election Summary](/comparison_2020/images/evaluation_of_models_results_summary_2020.png)
 
-**Standard Features - Census Data Only**: As before, the descision tree model without level limits has the lowest F1 score and the XGBoost has the highest F1 score.
-**Engineered Features - Census Data Only**: As before, the K Nearest Neighbors model has the lowest F1 score and the logistic regression with grid search has the highest F1 score.
+**Standard Features - Census Data Only**: As before, the Descision Tree model without level limits has the lowest F1 score, but the logictic regression model with polynomials has the highest F1 score (previously the XGBoost model was highest).
+**Engineered Features - Census Data Only**: The decision trees model with limits has the lowest F1 score (previously the K Nearest Neighbors model with standard features was lowest), the logictic regression model with polynomials has the highest F1 score (previously the logictic regression model with standard features was highest).
 
-**Standard Features - Census Data Only**: K Nearest Neighbors model
-**Engineered Features - Census Data Only**: 
+**Standard Features - Census Data Only**: The K Nearest Neighbors model has the lowest F1 score (as previously), the XGBoost model has the highest F1 score (previously the random forest model was highest).
+**Engineered Features - Census Data Only**: As before the K Nearest Neighbors model has the lowest F1 score and the XGBoost model has the highest F1 score.
