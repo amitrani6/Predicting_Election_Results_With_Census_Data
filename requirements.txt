@@ -36,7 +36,7 @@ mkl-service==2.3.0
 nbconvert==5.6.1
 nbformat==5.0.7
 notebook @ file:///Users/runner/miniforge3/conda-bld/notebook_1588887229329/work
-numpy==1.18.5
+numpy==1.22.0
 packaging==20.4
 pandas @ file:///opt/concourse/worker/volumes/live/38d1301c-8fa9-4d2f-662e-34dddf33b183/volume/pandas_1592841668171/work
 pandocfilters==1.4.2
