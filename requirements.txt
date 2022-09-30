@@ -22,7 +22,7 @@ ipython @ file:///opt/concourse/worker/volumes/live/02237e64-34e3-452e-5c63-14b7
 ipython-genutils==0.2.0
 jedi @ file:///opt/concourse/worker/volumes/live/114a62c0-dd60-4a40-6382-85abb31b5f6e/volume/jedi_1592841953086/work
 Jinja2==2.11.2
-joblib==1.0.1
+joblib==1.2.0
 jsonschema==3.2.0
 jupyter-client==6.1.3
 jupyter-core==4.6.3
