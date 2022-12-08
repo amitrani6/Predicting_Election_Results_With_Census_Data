@@ -5,7 +5,7 @@ beautifulsoup4==4.9.1
 bleach==3.1.5
 brotlipy==0.7.0
 bs4==0.0.1
-certifi==2020.12.5
+certifi==2022.12.7
 cffi==1.14.0
 chardet==3.0.4
 conda==4.9.2
